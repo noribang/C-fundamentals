@@ -24,7 +24,7 @@ int main() {
 	printf("%d, %d, %d\n", a, b, c);
 
 	float e = 23.456563;
-	char f = 'w';
+	char f = 'w';	
 
 	printf("float: %f\n", e);
 	printf("character: %c\n", f);
