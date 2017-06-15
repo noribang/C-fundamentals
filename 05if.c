@@ -1,6 +1,14 @@
 #include <stdio.h>
 
 int main() {
+
+	int a;
+	printf("Enter a number: ");
+	scanf("%d", &a);
+	if(a) {
+		printf("The value for int a is True.\n");
+	}
+
 	int b;
 	printf("Enter a value: ");
 	scanf("%d", &b);// Need to use "" for %d operator.
