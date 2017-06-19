@@ -22,6 +22,7 @@ int main() {
 		printf("%d\n", a[i]);
 	}
 
+	/*THIS NEEDS TO BE FIXED*/
 	/* bubble sort the array */
 	for (int x=0; x < MAX-1; x++)
 	    for (y=0; y < MAX-x-1; y++)
