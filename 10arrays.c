@@ -22,20 +22,19 @@ int main() {
 		printf("%d\n", a[i]);
 	}
 
-	/*THIS NEEDS TO BE FIXED*/
 	/* bubble sort the array */
 	for (int x=0; x < MAX-1; x++)
 	    for (y=0; y < MAX-x-1; y++)
-	        if (a[x] > a[y+1])
+	        if (a[y] > a[y+1])
 	        {
-	            t=a[x];
-	            a[x]=a[y+1];
+	            t=a[y];
+	            a[y]=a[y+1];
 	            a[y+1]=t;
 	        }
 	/* print sorted array */
 	printf("--------------------\n");
 	for (i=0; i < MAX; i++)
-	printf("%d\n",a[i]);
+		printf("%d\n",a[i]);
 
 	return 0;
 }
