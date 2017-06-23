@@ -19,23 +19,23 @@ int main() {
 	printf("%d\n", a[3]);
 	printf("%d\n", a[4]);
 
-
 	printf("=======================\n");
 	printf("SECOND ARRAY\n");		
-	printf("=======================\n");
-	int b[] = {78, 67, 9};
-	// int f;
-	for(int f=0; f<3; f++) {
-		printf("%d\n", b[f]);
+	printf("=======================\n");	
+
+	int c[4] = {3, 52, 9821, 5};
+	int e;
+	for(e=0; e<4; e++) {
+		printf("%d\n", c[e]);
 	}
 
 	printf("=======================\n");
 	printf("THIRD ARRAY\n");		
 	printf("=======================\n");
-	int c[4] = {3, 52, 9821, 5};
-	int e;
-	for(e=0; e<4; e++) {
-		printf("%d\n", c[e]);
+	int b[] = {78, 67, 9};
+	// int f;
+	for(int f=0; f<3; f++) {
+		printf("%d\n", b[f]);
 	}
 	
 	printf("=======================\n");
